@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Banderas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Banderas</h1>
+        <div class="flag-container">
+            <img id="flag" src="" alt="Bandera del país">
+        </div>
+        <div id="options-container">
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+        </div>
+        <p id="result"></p>
+        <button id="next-button" onclick="showRandomFlag()">Siguiente</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

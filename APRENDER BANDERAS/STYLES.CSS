@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.flag-container {
+    margin: 20px 0;
+}
+
+#flag {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    min-height: 24px;
+}
+
+#next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
